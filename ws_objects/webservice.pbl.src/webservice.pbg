@@ -1,0 +1,9 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "webservice.pbl" "";
+@end;
+@begin Objects 
+ "webservice.sra" "webservice.pbl";
+ "p_webservice.srj" "webservice.pbl";
+ "n_webservice.sru" "webservice.pbl";
+@end;
