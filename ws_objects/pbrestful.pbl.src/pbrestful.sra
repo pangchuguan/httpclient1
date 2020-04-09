@@ -24,7 +24,7 @@ string nativepdfappname = ""
 long richtextedittype = 2
 long richtexteditversion = 1
 string richtexteditkey = ""
-string appicon = ""
+string appicon = "D:\PB\PB2019R2\RibbonBar\Demo_MDI - Copy\sdr_2.ico"
 end type
 global pbrestful pbrestful
 
