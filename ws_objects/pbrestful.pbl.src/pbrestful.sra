@@ -17,11 +17,11 @@ end variables
 global type pbrestful from application
 string appname = "pbrestful"
 string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
-string themename = "Do Not Use Themes"
-boolean nativepdfvalid = false
-boolean nativepdfincludecustomfont = false
-string nativepdfappname = ""
-long richtextedittype = 2
+string themename = "Flat Design Blue"
+boolean nativepdfvalid = true
+boolean nativepdfincludecustomfont = true
+string nativepdfappname = "test appeon"
+long richtextedittype = 0
 long richtexteditversion = 1
 string richtexteditkey = ""
 string appicon = "D:\PB\PB2019R2\RibbonBar\Demo_MDI - Copy\sdr_2.ico"
