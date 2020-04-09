@@ -653,8 +653,8 @@ Loop
 end event
 
 type st_3 from statictext within w_httpclient_appeon
-integer x = 2848
-integer y = 96
+integer x = 2779
+integer y = 100
 integer width = 457
 integer height = 68
 integer textsize = -9
