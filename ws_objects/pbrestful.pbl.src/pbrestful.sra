@@ -16,6 +16,15 @@ end variables
 
 global type pbrestful from application
 string appname = "pbrestful"
+string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
+string themename = "Do Not Use Themes"
+boolean nativepdfvalid = false
+boolean nativepdfincludecustomfont = false
+string nativepdfappname = ""
+long richtextedittype = 2
+long richtexteditversion = 1
+string richtexteditkey = ""
+string appicon = ""
 end type
 global pbrestful pbrestful
 
@@ -36,7 +45,7 @@ destroy(error)
 destroy(message)
 end on
 
-event open;
+event open;//2020-4-9
 If Not IsValid ( ghc_client ) Then
 	ghc_client = Create HttpClient
 End If
