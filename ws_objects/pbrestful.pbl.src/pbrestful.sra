@@ -16,6 +16,8 @@ end variables
 
 global type pbrestful from application
 string appname = "pbrestful"
+boolean righttoleft = true
+boolean freedblibraries = true
 string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
 string themename = "Flat Design Blue"
 boolean nativepdfvalid = true
